@@ -1,0 +1,75 @@
+.sidebarContainer{
+    /* flex: 2 *//* 
+    border: 1px solid #800080; */ /* 
+    height: calc(100vh - 56px); */
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    width: 16.999%;
+    padding-bottom: 56px;
+}
+
+.sidebarContainer:hover{
+    overflow: auto;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background: transparent !important;
+}
+
+::-webkit-scrollbar-thumb{
+    background: red;
+    border-radius: 10px;
+}
+
+.sidebarWrapper{
+    /* padding: 20px; *//* 
+    border: 1px solid red; */
+    margin-top: 20px;
+}
+
+.sidebarList{
+    margin: 0;
+    padding: 0;/* 
+    width: 222.33px; */
+    width:95%;
+    background-color: white;
+    margin-right: 5px;
+}
+
+.sidebarListItem .sidebarLink{
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;/* 
+    border: 1px solid red; */
+    color: rgb(49, 46, 46);
+    font-weight: 450;
+}
+
+.sidebarLink:hover{
+    background-color: #0000000D;
+    
+}
+
+.active{
+    background-color: #eee;
+}
+
+.sidebarListText{
+    margin-left: 15px;
+}
+
+@media screen and (max-width: 1360px) {
+
+    .sidebarContainer{
+        width: 0;
+    }
+
+}
+
+

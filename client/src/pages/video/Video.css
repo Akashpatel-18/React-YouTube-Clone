@@ -1,0 +1,195 @@
+.video{
+    width: 100%;
+    background-color: #0000000D;
+}
+
+.videoShow{
+    width: 100%;/* 
+    border: 1px solid red; */
+    height: calc(100% - 20px);
+    background-color: white;
+    padding: 20px;
+}
+
+.videoContent{
+    width: calc(100% - 20px);/* 
+    border: 1px solid aqua; */
+}
+
+.videoContent iframe{
+    width: 100%;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 8px 5px 3px 5px;
+    color: #030303;
+}
+
+.viewsDate{
+    font-size: 14px;
+    color: #030303;
+    margin: 0 5px 30px 5px;
+
+}
+
+.youtuberName{
+    font-weight: 700;
+    margin: 5px;
+}
+
+.relatedVideos{
+    width: 100%;/* 
+    border: 1px solid olivedrab; *//* 
+    background-color: #0000000D; */
+    overflow: scroll;
+}
+
+@media screen and (max-width: 1360px){
+
+    .videoShow{
+        height: calc(100% - 20px - 60px);
+    }
+
+    .videoContent{
+        width: calc(100% - 20px -20px);
+    }
+    
+
+    .videoContent iframe{
+        width: 100%;
+        height: 400px;
+    }
+
+}
+
+@media screen and (max-width: 1080px){
+
+    .videoShow{
+        height: calc(100% - 20px - 60px - 60px);
+    }
+
+    .videoContent{
+        width: calc(100% - 20px -20px - 60px);
+    }
+    
+
+    .videoContent iframe{
+        width: 100%;
+        height: 360px;
+    }
+
+}
+
+
+@media screen and (max-width: 800px){
+
+    .top{
+        visibility: hidden;
+        display: none;
+    }
+
+    .videoShow{
+        padding: 0 2px 2px 2px;
+        position: sticky;
+        top: 0;
+        z-index: 10000;
+        width: 100%;
+    }
+
+    .videoContent{
+        width: 100%;
+    }
+
+    .videoContent iframe{
+        height: 280px;/* 
+        border: 1px solid red; */
+        width: 100%;
+    }
+
+    .title{
+        font-size: 15px;
+        font-weight: 700;
+        margin: 0 5px 3px 5px;
+    }
+
+    .viewsDate{
+        font-size: 14px;
+        color: #030303;
+        font-weight: 500;
+        margin: 0 5px 15px 5px;
+    
+    }
+
+    .youtuberName{
+        font-weight: 700;
+        font-size: 14px;
+        color: purple;
+        margin: 2px;
+        margin-left: 10px;
+    }
+    
+
+}
+
+
+@media screen and (max-width: 420px){
+
+    .top{
+        visibility: hidden;
+        display: none;
+    }
+
+    .videoShow{
+        width: 100%;
+    }
+
+    .videoContent{
+        width: 100%;
+    }
+
+    .videoContent iframe{
+        height: 200px;
+        width: 100%;
+    }
+
+    .title{
+        font-size: 13px;
+        font-weight: 700;
+        margin: 0 5px 3px 5px;
+    }
+
+    .viewsDate{
+        font-size: 11px;
+        color: #030303;
+        font-weight: 400;
+        margin: 0 5px 10px 5px;
+    
+    }
+
+    .youtuberName{
+        font-weight: 700;
+        font-size: 13px;
+        color: #030303;
+        margin: 2px;
+        margin-left: 10px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

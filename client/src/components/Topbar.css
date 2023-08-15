@@ -1,0 +1,137 @@
+
+.topbarContainer{
+    height: 56px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid #eee;
+    z-index: 100000;
+}
+
+.topbarLeft{
+    flex: 3;/* 
+    border: 1px solid orange;  */
+    height: 56px;
+    align-items: center;
+    display: flex;
+}
+
+.topbarLeft img{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.topbarCenter{
+    flex: 6;/* 
+    border: 1px solid purple;  */
+    display: flex;
+    align-items: center;
+}
+
+.backArrow{
+    margin-right: 10px;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.topbarCenter .searchbar{
+    border: 1px solid gray;
+    border-radius: 2px;
+    width: 85%;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.searchbar .searchIcon{
+    font-size: 23px !important;
+    color: #888;
+    margin-left: 5px;
+}
+
+.searchbar form{
+    width: 100%;/* 
+    border: 1px solid red; */
+}
+
+.searchbar input{
+    padding: 2px;
+    font-size: 14px;
+    width: 90%;
+    border: none;
+}
+
+.searchbar input:focus{
+    outline: none;
+}
+
+.topbarRight{
+    flex: 3;/* 
+    border: 1px solid red;  */
+    justify-content: center;
+    display: flex;
+    
+}
+
+.topbarRight .searchIcon{
+    color: #888;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+/*---------Max:800---------*/
+
+@media screen and (max-width: 800px) {
+
+    .topbarRight{
+        flex: 0;
+        display: none;
+    }
+
+    .topbarCenter{
+        flex: 9;
+    }
+
+    .topbarCenter .searchbar{
+        margin-right: 12px;
+    }
+
+}
+
+
+/*---------Max:420---------*/
+
+@media screen and (max-width: 420px) {
+
+    .topbarContainer{
+        height: 45px;
+    }
+
+    .topbarLeft{
+        flex: 2;
+    }
+
+    .topbarLeft img{
+        margin-left: 0;
+        width: 100px;
+        height: 30px;
+    }
+
+    .topbarCenter{
+        flex: 10;
+    }
+
+    .topbarCenter .searchbar{
+        margin-left: 18px;
+    }
+
+    .searchbar .searchIcon{
+        font-size: 20px !important;
+       
+    }
+ 
+}

@@ -1,0 +1,20 @@
+.sliderContainer{
+    /* flex:10;
+    width:100%; */
+    border: 1px solid #ccc;
+    
+    overflow: scroll;
+}
+
+.sliderList{
+    list-style-type: none;
+    margin: 0;
+    padding: 3px;
+    background-color: red;
+}
+
+.sliderListItem{
+    float: left; 
+    flex-wrap: nowrap;
+}
+

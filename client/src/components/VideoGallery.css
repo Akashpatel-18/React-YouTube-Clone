@@ -1,0 +1,151 @@
+.relatedvideogalleryContainer{
+    
+    width: 100%;
+    background-color: #0000000D;/* 
+    height: calc(100vh - 56px); */
+   height: 100%;/* 
+    position: relative;
+    left: 231.34px; */
+}
+
+.relatedvideoWrapper{
+    width: 25%;
+    padding: 11px;
+    float: left;/* 
+    border: 1px solid aqua; */
+    height: 240px;
+}
+
+/*  .relatedvideoBox{
+    border: 1px solid red; 
+} 
+ */
+.relatedvideoBox img{
+    width: calc(100% - 11px);
+    cursor: pointer;
+}
+
+.relatedvideoTitle{
+    font-size: 12px;
+    color: #030303;
+    font-weight: 500;/* 
+    margin: 2px; */
+}
+
+.relatedchannelDetails{
+    font-size: 12px;
+    color: #606060;
+    margin: 3px;
+}
+
+/*---max-1360-----*/
+
+@media screen and (max-width: 1360px) {
+
+ /*    .relatedvideogalleryContainer{
+        width: 100%;
+        left: 0;
+    }
+ */
+  
+    .relatedvideogalleryContainer{
+        background-color: #0000000D;
+    }
+
+    .relatedvideoBox img{
+        height: 160px;
+    }
+    
+    .relatedvideoTitle{
+        font-size: 13px;
+    }
+
+}
+
+/*--------max:1080---------*/
+
+@media screen and (max-width: 1080px) {
+
+    .ralatedvideoWrapper{
+        padding: 6px;
+
+    }
+
+    .relatedvideoBox img{
+        height: 140px;
+    }
+
+    .relatedvideoTitle{
+        font-size: 12px;
+    }
+
+    .relatedchannelDetails{
+        font-size: 11px;
+      
+    }
+
+}
+
+/*---------Max:800---------*/
+
+@media screen and (max-width: 800px) {
+
+    .relatedvideoWrapper{
+        width: 50%;
+        padding: 9px;/* 
+        height: 239px; *//* 
+        background-color: #0000000D; */
+    }
+
+    /* .relatedvideoBox{
+        border: 1px solid red;
+    }
+ */
+    .relaetdvideoBox img{
+        height: 180px;
+    }
+
+    .relatedvideoTitle{
+        font-size: 11.5px;
+        font-weight: 500;
+    }
+
+    .relatedchannelDetails{
+        font-size: 11px;
+        margin: 2px;
+    }
+
+
+}
+
+/*-----------Max:420--------*/
+
+@media screen and (max-width: 420px) {
+
+    .relatedvideoWrapper{
+        width: 100%;
+        padding: 5px;
+        height: 230px;
+    }
+
+    .relatedvideoBox{
+        width: calc(100% - 5px);
+    }
+
+    .relatedvideoBox img{
+        height: 150px;
+        width: 100%;
+    }
+
+    .relatedvideoTitle{
+        margin: 0;
+    }
+
+
+}
+
+
+
+
+
+
